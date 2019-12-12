@@ -1,9 +1,9 @@
 ---
 author: "YF"
 date: 2019-12-11
-linktitle: Creating a New Theme
-description: "hugo博客搭建"
-title: hugo博客搭建
+linktitle: "hugo博客搭建01"
+description: "hugo博客搭建01"
+title: hugo博客搭建01
 categories: [ "Development", "hugo" ]
 tags: ["hugo", "theme", "html", "css"]
 weight: 10
