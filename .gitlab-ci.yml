@@ -6,7 +6,10 @@ job1:
     tags:
         - basic
     script:
-        - cd ./public
+        - git clone "https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git"
+        - cd yf-gooo.github.io
+        - rm -rf page about portfolio
+        - cp -r ../public/{page,about,portfolio} ./
         - git config user.name "YF-Gooo"
         - git config user.email "ucakyj1@gmail.com"
         - git config --global push.default simple
