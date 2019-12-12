@@ -221,7 +221,25 @@
   
   <div class="post">
     <h2 id="gitlab-cicd">Gitlab CI/CD流程</h2>
-<pre><code>1.
+<pre><code>stages:
+- deploy
+
+job1:
+    stage: deploy
+    tags:
+        - basic
+    script:
+        - git clone &quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&quot;
+        - cd yf-gooo.github.io
+        - rm -rf page about portfolio
+        - cp -r ../public/{page,about,portfolio} ./
+        - git config user.name &quot;YF-Gooo&quot;
+        - git config user.email &quot;ucakyj1@gmail.com&quot;
+        - git add .
+        - git commit -m &quot;update site&quot;
+        - git push --set-upstream &quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&quot;
+    only:
+        - master
 </code></pre>
 
   </div>

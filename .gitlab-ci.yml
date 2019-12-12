@@ -12,7 +12,6 @@ job1:
         - cp -r ../public/{page,about,portfolio} ./
         - git config user.name "YF-Gooo"
         - git config user.email "ucakyj1@gmail.com"
-        - git config --global push.default simple
         - git add .
         - git commit -m "update site"
         - git push --set-upstream "https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git"
