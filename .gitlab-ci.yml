@@ -1,0 +1,26 @@
+stages:
+    - build-public
+    - deploy
+job1:
+    stage: build-public
+    tags:
+        - basic
+    script:
+        - hugo --theme=hyde-hyde --baseUrl="https://yf-gooo.github.io/" --buildDrafts
+    only:
+        - master
+
+job2:
+    stage: deploy
+    tags:
+        - basic
+    script:
+        - cd ./public
+        - git config user.name "YF-Gooo"
+        - git config user.email "ucakyj1@gmail.com"
+        - git config --global push.default simple
+        - git add .
+        - git commit -m "update site"
+        - git push --set-upstream "https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git"
+    only:
+        - master
