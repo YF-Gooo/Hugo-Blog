@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on YF-Blog</title>
+    <link>https://yf-gooo.github.io/tags/css/</link>
+    <description>Recent content in css on YF-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 13 Dec 2019 02:00:32 +0800</lastBuildDate>
+    
+	<atom:link href="https://yf-gooo.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo博客搭建02</title>
+      <link>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA02/</link>
+      <pubDate>Fri, 13 Dec 2019 02:00:32 +0800</pubDate>
+      
+      <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA02/</guid>
+      <description>Gitlab CI/CD流程 1.  </description>
+    </item>
+    
+    <item>
+      <title>hugo博客搭建01</title>
+      <link>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA01/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA01/</guid>
+      <description>最终还是放弃了自建博客的想法，虽然的vue＋gin博客已经基本完工。但是考虑到
+ 1.服务器要花钱 2.别人写的主题的确比我好看 (..•˘_˘•..)  最终还是决定用hugo搭建一个免费博客。真香～～
+搭建流程 hugo new site hugo-blog cd hugo-blog hugo new about.md　//创建文章 cd themes //下载主题 git clone https://github.com/htr3n/hyde-hyde.git cd .. hugo server --theme=hyde-hyde --buildDrafts  部署 创建git仓库名字叫做yf-gooo.</description>
+    </item>
+    
+  </channel>
+</rss>

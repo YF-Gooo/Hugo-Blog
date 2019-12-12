@@ -1,16 +1,7 @@
 stages:
-    - build-public
     - deploy
-job1:
-    stage: build-public
-    tags:
-        - basic
-    script:
-        - hugo --theme=hyde-hyde --baseUrl="https://yf-gooo.github.io/" --buildDrafts
-    only:
-        - master
 
-job2:
+job1:
     stage: deploy
     tags:
         - basic

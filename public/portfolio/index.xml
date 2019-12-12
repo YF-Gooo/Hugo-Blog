@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on YF-Blog</title>
+    <link>https://yf-gooo.github.io/portfolio/</link>
+    <description>Recent content in Projects on YF-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yf-gooo.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LaraMod</title>
+      <link>https://yf-gooo.github.io/portfolio/laramod/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yf-gooo.github.io/portfolio/laramod/</guid>
+      <description>LaraMod is another modularisation effort to systematically organising a Laravel based project. The idea stems from my struggle to structure a Laravel-based project so that I can work effectively on individual modules whilst keeping Laravel codebase intact as much as possible and also keeping the project&#39;s codebase separate from Laravel.</description>
+    </item>
+    
+  </channel>
+</rss>
