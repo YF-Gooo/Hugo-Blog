@@ -17,13 +17,13 @@
       <pubDate>Fri, 13 Dec 2019 02:00:32 +0800</pubDate>
       
       <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA02/</guid>
-      <description>Gitlab CI/CD流程 stages: - deploy job1: stage: deploy tags: - basic script: - git clone &amp;quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&amp;quot; - cd yf-gooo.github.io - rm -rf page about portfolio - cp -r ../public/{page,about,portfolio} ./ - git config user.</description>
+      <description>Gitlab CI/CD流程 直接上gitlab-ci.yml，runner用的式shell方式，因为懒得build hugo的docker镜像啦～ stages: - deploy job1: stage: deploy tags: - basic script: - git clone &amp;quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&amp;quot; - cd yf-gooo.github.io - rm -rf page about portfolio - cp -r .</description>
     </item>
     
     <item>
-      <title>hugo博客搭建01</title>
+      <title>Hugo博客搭建01</title>
       <link>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA01/</link>
-      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA01/</guid>
       <description>最终还是放弃了自建博客的想法，虽然的vue＋gin博客已经基本完工。但是考虑到

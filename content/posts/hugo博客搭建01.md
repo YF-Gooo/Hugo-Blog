@@ -1,9 +1,9 @@
 ---
 author: "YF"
-date: 2019-12-11
-linktitle: "hugo博客搭建01"
-description: "hugo博客搭建01"
-title: hugo博客搭建01
+date: 2019-12-12
+linktitle: "Hugo博客搭建01"
+description: "Hugo博客搭建01"
+title: Hugo博客搭建01
 categories: [ "Development", "hugo" ]
 tags: ["hugo", "theme", "html", "css"]
 weight: 10
@@ -37,4 +37,4 @@ weight: 10
     git push -u origin master
 
 ## 改进
-    考虑采用gitlab/cicd自动更新博客，写好markdown，提交自动触发网站更新流程
+    考虑采用gitlab/cicd自动更新博客，写好markdown，提交自动触发网站更新流程(已完成)
