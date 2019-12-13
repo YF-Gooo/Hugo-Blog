@@ -17,7 +17,7 @@
       <pubDate>Fri, 13 Dec 2019 02:00:32 +0800</pubDate>
       
       <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA02/</guid>
-      <description>Gitlab CI/CD流程 直接上gitlab-ci.yml，runner用的式shell方式，因为懒得build hugo的docker镜像啦～ stages: - deploy job1: stage: deploy tags: - basic script: - git clone &amp;quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&amp;quot; - cd yf-gooo.github.io - rm -rf page about portfolio - cp -r .</description>
+      <description>Gitlab CI/CD流程 直接上gitlab-ci.yml，runner用的式shell方式，因为懒得build hugo的docker镜像啦～ stages: - deploy job1: stage: deploy tags: - basic script: - git clone &amp;quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&amp;quot; - cd yf-gooo.github.io - rm -rf posts about portfolio img - cp -r .</description>
     </item>
     
     <item>

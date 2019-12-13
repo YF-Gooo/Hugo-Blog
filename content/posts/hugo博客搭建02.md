@@ -11,7 +11,7 @@ weight: 10
 ## Gitlab CI/CD流程
 #### 直接上gitlab-ci.yml，runner用的式shell方式，因为懒得build hugo的docker镜像啦～
     stages:
-    - deploy
+        - deploy
 
     job1:
         stage: deploy
@@ -20,8 +20,8 @@ weight: 10
         script:
             - git clone "https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git"
             - cd yf-gooo.github.io
-            - rm -rf page about portfolio
-            - cp -r ../public/{page,about,portfolio} ./
+            - rm -rf posts about portfolio img
+            - cp -r ../public/* ./
             - git config user.name "YF-Gooo"
             - git config user.email "ucakyj1@gmail.com"
             - git add .

@@ -223,7 +223,7 @@
     <h2 id="gitlab-cicd">Gitlab CI/CD流程</h2>
 <h4 id="gitlab-ciymlrunnershellbuild-hugodocker">直接上gitlab-ci.yml，runner用的式shell方式，因为懒得build hugo的docker镜像啦～</h4>
 <pre><code>stages:
-- deploy
+    - deploy
 
 job1:
     stage: deploy
@@ -232,8 +232,8 @@ job1:
     script:
         - git clone &quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&quot;
         - cd yf-gooo.github.io
-        - rm -rf page about portfolio
-        - cp -r ../public/{page,about,portfolio} ./
+        - rm -rf posts about portfolio img
+        - cp -r ../public/* ./
         - git config user.name &quot;YF-Gooo&quot;
         - git config user.email &quot;ucakyj1@gmail.com&quot;
         - git add .
