@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pytorch on YF-Blog</title>
+    <link>https://yf-gooo.github.io/categories/pytorch/</link>
+    <description>Recent content in pytorch on YF-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 14 Dec 2019 15:26:44 +0800</lastBuildDate>
+    
+	<atom:link href="https://yf-gooo.github.io/categories/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Transformer01</title>
+      <link>https://yf-gooo.github.io/posts/transformer01/</link>
+      <pubDate>Sat, 14 Dec 2019 15:26:44 +0800</pubDate>
+      
+      <guid>https://yf-gooo.github.io/posts/transformer01/</guid>
+      <description>白瞟bert也有一年多了，都没有好好研究过transformer的具体结构，是时候仔细研究下了.
+代码保存在 : https://github.com/YF-Gooo/DeepLearning-NLP/blob/master/transformer/transformer.py
+结构: 流程: 数据: ＃输入 sentences = [&#39;ich mochte ein bier P&#39;, &#39;S i want a beer&#39;, &#39;i want a beer E&#39;] ＃输出 enc_inputs＝tensor([[1, 2, 3, 4, 0]]) dec_inputs＝tensor([[5, 1, 2, 3, 4]]) target_batch＝tensor([[1, 2, 3, 4, 6]])  模型: Transformer: class Transformer(nn.Module): def __init__(self): super(Transformer, self).__init__() self.</description>
+    </item>
+    
+  </channel>
+</rss>

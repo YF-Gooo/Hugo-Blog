@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yf-gooo.github.io/posts/transformer01/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA02/</loc>
     <lastmod>2019-12-13T02:00:32+08:00</lastmod>
   </url>
@@ -14,7 +19,52 @@
   
   <url>
     <loc>https://yf-gooo.github.io/categories/</loc>
-    <lastmod>2019-12-13T02:00:32+08:00</lastmod>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/tags/deeplearning/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/categories/deeplearning/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/categories/nlp/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/tags/nlp/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/posts/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/tags/pytorch/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/categories/pytorch/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/tags/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yf-gooo.github.io/</loc>
+    <lastmod>2019-12-14T15:26:44+08:00</lastmod>
   </url>
   
   <url>
@@ -33,32 +83,17 @@
   </url>
   
   <url>
-    <loc>https://yf-gooo.github.io/categories/hugo/</loc>
-    <lastmod>2019-12-13T02:00:32+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yf-gooo.github.io/tags/hugo/</loc>
     <lastmod>2019-12-13T02:00:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yf-gooo.github.io/posts/</loc>
-    <lastmod>2019-12-13T02:00:32+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yf-gooo.github.io/tags/</loc>
+    <loc>https://yf-gooo.github.io/categories/hugo/</loc>
     <lastmod>2019-12-13T02:00:32+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yf-gooo.github.io/tags/theme/</loc>
-    <lastmod>2019-12-13T02:00:32+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yf-gooo.github.io/</loc>
     <lastmod>2019-12-13T02:00:32+08:00</lastmod>
   </url>
   

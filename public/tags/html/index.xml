@@ -17,7 +17,7 @@
       <pubDate>Fri, 13 Dec 2019 02:00:32 +0800</pubDate>
       
       <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA02/</guid>
-      <description>Gitlab CI/CD流程 直接上gitlab-ci.yml，runner用的式shell方式，因为懒得build hugo的docker镜像啦～ stages: - deploy job1: stage: deploy tags: - basic script: - git clone &amp;quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&amp;quot; - cd yf-gooo.github.io - rm -rf posts about portfolio img - cp -r .</description>
+      <description>Gitlab CI/CD流程 直接上gitlab-ci.yml，runner用的式shell方式，因为懒得build hugo的docker镜像啦～ stages: - deploy job1: stage: deploy tags: - basic script: - git clone &amp;quot;https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git&amp;quot; - cd yf-gooo.github.io - rm -rf posts about portfolio img - cp -r ../public/* ./ - git config user.name &amp;quot;YF-Gooo&amp;quot; - git config user.email &amp;quot;ucakyj1@gmail.com&amp;quot; - git add . - git commit -m &amp;quot;update site&amp;quot; - git push --set-upstream &amp;quot;https://$CI_GITHUB_TOKEN@github.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <guid>https://yf-gooo.github.io/posts/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA01/</guid>
       <description>最终还是放弃了自建博客的想法，虽然的vue＋gin博客已经基本完工。但是考虑到
  1.服务器要花钱 2.别人写的主题的确比我好看 (..•˘_˘•..)  最终还是决定用hugo搭建一个免费博客。真香～～
-搭建流程 hugo new site hugo-blog cd hugo-blog hugo new about.md　//创建文章 cd themes //下载主题 git clone https://github.com/htr3n/hyde-hyde.git cd .. hugo server --theme=hyde-hyde --buildDrafts  部署 创建git仓库名字叫做yf-gooo.</description>
+搭建流程 hugo new site hugo-blog cd hugo-blog hugo new about.md　//创建文章 cd themes //下载主题 git clone https://github.com/htr3n/hyde-hyde.git cd .. hugo server --theme=hyde-hyde --buildDrafts  部署 创建git仓库名字叫做yf-gooo.github.io hugo --theme=hyde-hyde --baseUrl=&amp;quot;https://yf-gooo.github.io/&amp;quot; --buildDrafts cd public git init git add . git commit -m &amp;quot;&amp;quot; git remote add origin https://github.</description>
     </item>
     
   </channel>

@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://example.com/"
+baseurl = "https://yf-gooo.github.io/"
 languageCode = "zh"
 
 title = "YF-Blog"
@@ -10,7 +10,7 @@ theme = "hyde-hyde"
 # googleAnalytics = "your-google-analytics-id"
 # enableRobotsTXT = true
 
-summarylength = 30
+summarylength = 50
 
 paginate = 10
 
@@ -18,7 +18,7 @@ paginate = 10
 [params]
     author = "Yifan"
     title = "Title"
-    description = "一个缓慢成长中的数据科学猿"
+    description = "一个缓慢成长中的数据科学犬"
     authorimage = "/img/dog.jpeg"
     dateformat = "Jan 2, 2006"
 
