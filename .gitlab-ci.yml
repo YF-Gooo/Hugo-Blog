@@ -1,6 +1,5 @@
 stages:
     - deploy
-
 job1:
     stage: deploy
     tags:
