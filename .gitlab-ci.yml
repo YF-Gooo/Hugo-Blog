@@ -6,6 +6,7 @@ job1:
     tags:
         - basic
     script:
+        - hugo --theme=hyde-hyde --baseUrl="https://yf-gooo.github.io/" --buildDrafts
         - git clone "https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git"
         - cd yf-gooo.github.io
         - rm -rf posts about portfolio img
