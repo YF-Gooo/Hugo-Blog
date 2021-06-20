@@ -18,6 +18,7 @@ weight: 10
         tags:
             - basic
         script:
+            - hugo --theme=hyde-hyde --baseUrl="https://yf-gooo.github.io/" --buildDrafts
             - git clone "https://$CI_GITHUB_TOKEN@github.com/YF-Gooo/yf-gooo.github.io.git"
             - cd yf-gooo.github.io
             - rm -rf posts about portfolio img
@@ -30,4 +31,4 @@ weight: 10
         only:
             - master
 
-## 以后只需要生成public文件，就会自动同步到我的博客上，灰常方便好用
+### 以后只需要生成public文件，就会自动同步到我的博客上，灰常方便好用
